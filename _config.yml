@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   studying Computer Science and Environmental Studies.
 permalink: ':title/'
 baseurl: / # the subpath of your site, e.g. /blog
-base_url: 'nick.april.me'
+base_url: '/nick.april.me'
 url: 'https://nick.me' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
