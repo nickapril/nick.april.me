@@ -852,6 +852,8 @@ pre code {
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
+  margin-left: 2.5rem;
+  margin-right: auto;
 }
 
 .sidebar-social {
@@ -1041,4 +1043,16 @@ img.post-image, img.page-img {
   .previous, .next {
     display: block;
   }
+}
+
+.selfie {
+  width: 205px;
+  border-radius: 5%;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  box-shadow: 0;
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
