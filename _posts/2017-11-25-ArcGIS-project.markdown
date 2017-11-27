@@ -12,7 +12,7 @@ ArcGIS is a system for the management, analysis, and display of geographic infor
 
 ## My Project: Energy Consumption
 
-![alt text](assets/img/brandeis-buildings.png "Brandeis Energy Map")
+![alt text](../assets/img/brandeis-buildings.png?raw=true "Brandeis Energy Map")
 
 
 This map of Brandeis University shows each building relative to their energy consumption. The darker colors represent higher energy consumption. I created this map using Symbology techniques in ArcMap to connect the geodatabase of consumption statistics I created with the building objects on the map.
