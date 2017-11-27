@@ -11,4 +11,10 @@ TA OnDemand consists of three main features:
 2. Appointments
 3. Live chat
 
-My main contribution to this team project was the Live Chat feature built with Web Sockets.
+### Dynamic Scheduler
+The scheduler feature runs on JavaScript.
+
+### Instant Messaging
+The Live Chat feature uses Action Cable to seamlessly integrate WebSockets with the rest of our Rails application. It provides a JavaScript framework for developers and allows easy access to our models written with Active Record. 
+
+We built the Live Chat feature so it can withstand multiple channels from a single user, allowing someone to hold many private conversations at once.
