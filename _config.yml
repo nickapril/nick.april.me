@@ -5,12 +5,12 @@ description: > # this means to ignore newlines until "baseurl:"
   This site is a tech blog for Nick April, an undergraduate at Brandeis University
   studying Computer Science and Environmental Studies.
 permalink: ':title/'
-baseurl: nickapril.me # the subpath of your site, e.g. /blog
+baseurl: '/' # the subpath of your site, e.g. /blog
 base_url: '/'
-url: 	http://nickapril.me
+url: 	'https://nickapril.me'
 
 # Social
-email:              "nickapril@brandeis.edu"
+email:              "napril@brandeis.edu"
 github:             "https://github.com/nickapril"
 linkedin:           "https://www.linkedin.com/in/nick-april-64766096/"
 

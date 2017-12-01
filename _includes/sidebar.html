@@ -2,16 +2,16 @@
 
   <div class="sidebar-container">
     <div class="sidebar-logo">
-      <a href="{{site.baseurl}}/" class="logo">{% if site.name %}{{site.name}}{% else %}Fresh{% endif %}</a>
+      <a href="{{site.url}}/" class="logo">{% if site.name %}{{site.name}}{% endif %}</a>
     </div>
 
-    <img class="selfie" src="{{ "/assets/img/selfie.jpeg" | prepend: site.baseurl }}" alt="selfie image">
+    <img class="selfie" src="{{ "/assets/img/selfie.jpeg"}}" alt="selfie image">
 
 
     <menu class="sidebar-menu">
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/">Home</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/about/">About</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/resume/">Resume</a></li>
+      <li class="menu-items"><a class="menu-links" href="{{site.url}}/">Home</a></li>
+      <li class="menu-items"><a class="menu-links" href="/about/">About</a></li>
+      <li class="menu-items"><a class="menu-links" href="/resume/">Resume</a></li>
     </menu>
 
     <div class="sidebar-social">
