@@ -1,4 +1,4 @@
-# Nickapril.me - a Personal Tech Blog
+# Nickapril.me
 
 Created by Nick April
 
