@@ -6,6 +6,7 @@ img: TA-main.png
 description: This Ruby on Rails Web application was built last spring to help improve student learning in large university classes. TA OnDemand standardizes teaching assistant office hour scheduling and provides a space for virtually hosted office hours. This application will encourage interaction among teaching assistants and students and therefore improve the quality of student learning.
 ---
 
+
 ### Introduction
 Going in to this project, the only programming experience I had was in Java. This rails app was allowed me to experiement with many new languages and skills like Ruby, Rails, JavaScript, HTML, CSS, Web Development, Agile Development, SQL databases, AWS S3 and GIT.
 
@@ -74,7 +75,7 @@ Broadcasting and receiving messages with Action Cable
 As you can see here, Action Cable subscribes users to specific "chat rooms" and will render and receive messages associated with that channel. This structure can withstand multiple channels from a single user, allowing someone to hold many private conversations at once.
 
 
-![alt text](../assets/img/TA-chat.png?raw=true "Rails chat feature")
+![alt text](/assets/img/TA-chat.png?raw=true "Rails chat feature")
 
 A list of all the TA's for this user's classes is in the sidebar on the left. The green circle next to Hao and Adi indicates that they are currently hosting office hours. A user can click on any of those names and a chat box will appear.
 

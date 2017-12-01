@@ -14,7 +14,7 @@ ArcGIS is a system for the management, analysis, and display of geographic infor
 
 This map of Brandeis University shows each building relative to their energy consumption. The darker colors represent higher energy consumption. I created this map using Symbology techniques in ArcMap to connect the geodatabase of consumption statistics I created with the building objects on the map.
 
-![alt text](../assets/img/extrusion.png?raw=true "Brandeis Energy Map")
+![alt text](/assets/img/extrusion.png?raw=true "Brandeis Energy Map")
 
 This is the same map with an extrusion visualization using ArcScene. The extrusion visualization shows clear outliers between the buildings on campus.
 
@@ -22,5 +22,5 @@ The last part of this assignment was to generate an estimate for how much energy
 
 Data given to me from Mary Fischer, the sustainability manager at Brandeis, suggests that for every 1,065 (m2) solar canopy, 212,669 kWh of electricity could be produced. Using this measurement, I estimated that 12,419,358 kWh of electricity is the full solar energy potential of the Brandeis campus. 
 
-![alt text](../assets/img/solar-current.png?raw=true "Brandeis Energy Map") 
-![alt text](../assets/img/solar-projected.png?raw=true "Brandeis Energy Map")
+![alt text](/assets/img/solar-current.png?raw=true "Brandeis Energy Map") 
+![alt text](/assets/img/solar-projected.png?raw=true "Brandeis Energy Map")
