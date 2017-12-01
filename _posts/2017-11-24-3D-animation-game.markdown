@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3D Animation Game"
-date:   2016-29-30 00:00:00
+date:   2016-11-29 00:00:00
 img: 
 description: This 3D animated game was built in Blender with a team of 5 undergraduates at Brandeis University. The game consists of 3 levels in which the user must complete challenges and avoid attacks from enemies.
 ---
