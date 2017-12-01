@@ -12,7 +12,7 @@ Nickapril.me is a personal blog built on Jekyll for current and past technical p
 - SSL connection for encryption set up with Cloudflare
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](http://fontawesome.io/)
-- [Analytics](https://analytics.google.com/analytics/web/)
+- [Google Analytics](https://analytics.google.com/analytics/web/)
 - [Jekyll](https://jekyllrb.com/)
 
 ### Projects
