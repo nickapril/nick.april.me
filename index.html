@@ -1,31 +1,49 @@
----
-layout: default
----
-
-{% for post in paginator.posts %}
-<article class="main-article">
-  <div class="wrap-content">
-    <header class="header-article">
-      <h2 class="title-article"><a href="{{post.url}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    {% if post.img %}
-       <img class="post-image" src={{ "/assets/img/" | append: post.img }} alt="{{post.title}}">
-    {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url}}">(Read more...)</a></p>
-  </div>
-</article>
-{% endfor %}
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</a>
-  {% else %}
-    <span class="previous"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-  {% else %}
-    <span class="next ">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-  {% endif %}
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+        }
+        h1 {
+            color: #555;
+            font-size: 2em;
+            font-weight: 400;
+        }
+        p {
+            margin: 0 auto;
+            width: 280px;
+        }
+        @media only screen and (max-width: 280px) {
+            body, p {
+                width: 95%;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Page Not Found</h1>
+    <p>Sorry, but the page you were trying to view does not exist.</p>
+</body>
+</html>
